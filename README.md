@@ -1,6 +1,6 @@
 # Laboratorio de Ticketing con Jira y Python
 
-Script en Python que consume la API de Jira para leer tickets nuevos, clasificarlos automáticamente por palabras clave (ej. *"falla de red"*, *"acceso denegado"*, *"soporte de hardware"*), y enviar alertas formateadas a un canal de Slack mediante un Incoming Webhook.
+Script en Python diseñado para automatizar el triaje de Nivel 1 en mesas de ayuda. Consume la API REST de Jira, clasifica incidentes por palabras clave (Redes, Accesos, Hardware) y notifica al equipo vía Slack.
 
 ---
 
